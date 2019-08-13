@@ -1,0 +1,315 @@
+body{background:url(../imagenes/fondo2.png);
+}
+.slider { width:65%;
+		 list-style:none;
+		 overflow:hidden;
+		 float:center; 
+		 margin-left:17%;
+		 margin-right:20%;
+		 margin-top:3%;
+		 margin:auto;
+		 display:flex;
+		 flex-wrap:wrap;
+}
+.slider ul {
+	padding:0;
+	display:flex;
+	width:400%;
+	animation:cambio 20s infinite;
+	animation-direction:alternate
+}
+.slider li {
+	list-style:none;
+}
+.slider img{ 
+}
+@keyframes cambio {
+	0%{margin-left:0px;}
+	20%{margin-left:0px;}
+	
+	25%{margin-left:-700px;}
+	45%{margin-left:-700px;}
+	
+	50%{margin-left:-1400px;}
+	70%{margin-left:-1400px;}
+
+	75%{margin-left:-2100px;}
+	100%{margin-left:-2100px;}
+	}
+	
+* {
+          padding:0px;
+		  margin:0px;
+		  }
+		 #header {
+		 margin-left:0%;
+		 margin-right:0%;
+		 margin-bottom:0%;
+		 width:100px;
+		 font-family:arial;
+		 }
+		 .nav {
+			 list-style:none;
+			 background-color:#990000;
+			 color:#FFF;
+			 text-decoration:none;
+			 width:100px;
+			 display:flex;
+			 flex-wrap:wrap;
+		 }
+		 .nav li a {
+               background-color:#990000;
+			 color:#FFF;
+			 text-decoration:none;
+		     padding:0px 0px;
+	         display:block;
+		 }
+		 .nav ul a{
+			 display:none;
+		 }
+		 
+		 .nav {
+			 float:left;
+			 overflow:none;
+          }
+		 
+		 .nav {
+			display:flex;
+			padding:0;
+			margin:0;
+		 }
+		 
+		 .buttom {
+			 display:none;
+			 position:down;
+			 min-width:140px;
+			 margin-left:0%;
+			 margin-top:30%;
+			 margin-right:100%;
+			 
+		 }
+		 .nav img {
+			 position:down;
+		 }
+		 .nav li:hover {
+			 display:block;
+			 }
+			 
+ /*letra*/
+ 
+ .h1 {
+	 text-decoration:none;
+ }
+  
+  
+  body {
+	font-family:onyx;
+	font-size:25;
+	text-decoration:none;
+
+}  
+/*estilos generales*/
+ul {
+	list-style: none;
+	padding: 0;
+	margin;auto;
+}
+nav li{
+line-height:3rem;
+position;relative;	
+}
+nav li ul {
+	position:absolute; 
+}
+nav a{
+	text-decoration:none;
+    color:#FFF;
+	display:block;
+	padding:0 3.5em;
+	transition: .4s;
+}
+ .nav:hover; {
+	background-color:#434343;
+}
+nav li ul{
+	display:none;
+}
+nav li:hover ul{ display:block;
+}
+nav ul ul{
+}
+/*primer nivel*/
+nav > ul{
+	background:#CC0000 ;
+	display:table;
+	width:100%;
+}
+nav > ul >li {
+	float: left;
+}
+
+/*segundo nivel*/
+  nav li li {
+	  background:#222;
+	  
+	  
+  }
+    .letras p {
+	   text-decoration:none;
+	   font-family:onyx;
+	   font-size:25;
+	   display:block;
+	   border:1px;
+	   
+  }
+  
+  
+.font-decoration:none;
+}
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family:Arial;	
+}
+ 
+ .a {
+	margin-left:5px; 
+	margin-right:700px;
+	margin-top:50px;
+	margin-bottom:0;
+ }
+ .b {
+	margin-left:90; 
+	margin-right:90;
+	margin-top:-280px;
+	margin-bottom:0;
+	
+ }
+ .c {
+	margin-left:710; 
+	margin-right:5;
+	margin-top:-277px;
+	margin-bottom:0;
+
+ }
+  .d {
+	margin-left:5px; 
+	margin-right:700px;
+	margin-top:-80;
+	margin-bottom:-75;
+ }
+ .e {
+	margin-left:90; 
+	margin-right:90;
+	margin-top:-279px;
+	margin-bottom:-75;
+ }
+ .f {
+	margin-left:710; 
+	margin-right:5;
+	margin-top:-277px;
+	margin-bottom:-75;
+ }
+ .content-all {
+	 Width:100%;
+	 display:flex;
+	 flex-wrap:wrap;
+	 display:inline;
+ }
+ 
+ .content-img {
+	 Width:300px;
+	 height:180px;
+	 margin:auto;
+	 margin-top:80px;
+	 margin-bottom:100px;
+	 position:relative;
+	 overflow:hidden;
+
+
+ }
+ 
+
+ }
+  .content-img img{
+	 Width:100%;
+	 
+ }
+ .content-1{
+	 width:1000px;
+	 height:1000px;
+	 position:absolute;
+	 background:rgba(0,0,0,0.5);
+	 top:0;
+	 margin:0;
+	 transform:rotate(-30deg);
+	 display:none;
+ }
+  .content-2{
+	 width:1000px;
+	 height:1000px;
+	 position:absolute;
+	 background:rgba(0,0,0,0.5);
+	 top:0;
+	 margin:0;
+	 transform:rotate(-40deg);
+ }
+  .content-3{
+	 width:1000px;
+	 height:1000px;
+	 position:absolute;
+	 background:rgba(0,0,0,0.5);
+	 top:0;
+	 margin:0;
+	 transform:rotate(-60deg);
+ }
+ .content-img:hover .content-1 {
+width:200%;
+transition:all 900ms;
+display:block;
+ }
+  .content-img:hover .content-2 {
+width:200%;
+transition:all 500ms;
+ }
+ .content-img:hover .content-3 {
+width:200%;
+transition:all 300ms;
+ }
+ .content-img:hover .img {
+	 transform: scale(1.5);
+	 transition: all 300ms
+ }
+.content-txt {
+	position:absolute;
+	top:0;
+	width:200px;
+	padding:50px;
+	z-index:10;
+	text-align:center;
+	margin-top:20px;
+}
+.content-txt h3 {
+	opacity:0;
+	transform:scale(0.2)
+	transition:all 300ms;
+}
+.content-txt a {
+	opacity:0;
+}
+.content-img:hover h3 {
+	opacity:1;
+	transition:all 400ms;
+}
+.content-txt:hover a{
+	opacity:1;
+	transition:all 400ms;
+}
+
+
+  
+  
+	
+	
+	
